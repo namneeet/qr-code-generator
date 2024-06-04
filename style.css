@@ -1,0 +1,104 @@
+.josefin-sans-<uniquifier> {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*{
+    background-color: black;
+    
+}
+
+.head{
+    display:flex;
+    height: 200px;
+    justify-content: center;
+    margin-top: 100px;
+    text-align: center;
+}
+
+button{
+    height:40px;
+    width:200px;
+    background-color: rgb(235, 39, 39);
+    border:none;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+button:hover{
+    background-color: rgb(190, 33, 33);
+}
+
+.box{
+    background-color: white;
+    height:200px;
+    width:400px;
+    border-radius: 10px;
+}
+
+
+.head p{
+    background-color: white;
+    text-align: center;
+    font-family:'Josefin Sans';
+    font-size: 20px;
+}
+
+input{
+    height:40px;
+    color:white;
+    width:300px
+}
+
+.body{
+    margin-top: 10px;
+    height:250px;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.larm{
+    background-color: white;
+    height: 250px;
+    width:100px;
+    margin-right:10px
+}
+.neck{
+    background-color: white;
+    height:250px;
+    width:400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.rarm{
+    background-color: white;
+    height: 250px;
+    width:100px;
+    margin-left:10px
+}
+
+.legs{
+    margin-top: 10px;
+    height:200px;
+    display:flex;
+    justify-content: center;
+}
+
+.lleg{
+    background-color: white;
+    height: 250px;
+    width:150px;
+    margin-right: 5px;
+}
+
+.rleg{
+    background-color: white;
+    height: 250px;
+    width:150px;
+    margin-left:5px;
+}
